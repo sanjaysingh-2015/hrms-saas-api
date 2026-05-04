@@ -1,18 +1,18 @@
-package com.hewhorizon.hrms.auth.configs;
+package com.hewhorizon.hrms.saas.configs;
 
 public class TenantContext {
 
-    private static final ThreadLocal<Long> tenantHolder = new ThreadLocal<>();
+    private static final ThreadLocal<Long> CURRENT = new ThreadLocal<>();
 
-    public static void setTenantId(Long tenantId) {
-        tenantHolder.set(tenantId);
+    public static void set(Long tenantId) {
+        CURRENT.set(tenantId);
     }
 
-    public static Long getTenantId() {
-        return tenantHolder.get();
+    public static Long get() {
+        return CURRENT.get();
     }
 
     public static void clear() {
-        tenantHolder.remove();
+        CURRENT.remove();
     }
 }

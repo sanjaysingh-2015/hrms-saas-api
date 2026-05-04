@@ -1,4 +1,4 @@
-package com.hewhorizon.hrms.auth.exceptions;
+package com.hewhorizon.hrms.saas.exceptions;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;
