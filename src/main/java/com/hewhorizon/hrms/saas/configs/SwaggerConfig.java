@@ -1,4 +1,4 @@
-package com.hewhorizon.hrms.auth.configs;
+package com.hewhorizon.hrms.saas.configs;
 
 
 import io.swagger.v3.oas.models.Components;

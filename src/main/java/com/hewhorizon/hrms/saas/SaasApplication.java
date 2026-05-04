@@ -1,4 +1,4 @@
-package com.hewhorizon.hrms.auth;
+package com.hewhorizon.hrms.saas;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
